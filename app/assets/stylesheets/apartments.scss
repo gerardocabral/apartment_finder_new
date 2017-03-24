@@ -1,3 +1,78 @@
 // Place all the styles related to the Apartments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+thead, tbody, td, {
+  border-color: 	#75c9d2;
+}
+
+thead{
+  background-color: 	#75c9d2;
+
+}
+
+td{
+  width: 200px;
+}
+
+.table {
+  text-align: center;
+}
+
+.table_row{
+  height: 150px;
+}
+
+th{
+  text-align: center;
+}
+
+#yamama{
+  display: block;
+  border-color: 		#75c9d2;
+  background-color: #fff;
+}
+
+#yapapa{
+  border-color: #75c9d2;
+}
+
+#shutit{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 6rem;
+}
+
+h4{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+.haters{
+  background-color: #75c9d2;
+  color: #fff;
+  text-align: center;
+}
+
+.yabrotha{
+    margin-left: 41.5%;
+}
+
+.field1{
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+#deathtoyou{
+  color: 	#2d5f72;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.buttons{
+  background-color: #eae7e3;
+  border-color: #eae7e3;
+  border-radius: 20px;
+  box-shadow: 0px, 0px;
+}
