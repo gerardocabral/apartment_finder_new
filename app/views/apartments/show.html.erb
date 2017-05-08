@@ -3,59 +3,67 @@
 <div id="apartment_map" data-apartment-id="<%=@apartment.id%>">Google Map will appear here...</div>
 <br>
 <br>
+<div class="show_page">
+
 <p> <%= link_to image_tag(@apartment.image.url(:small)), @apartment.image.url %> </p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Name:</strong><br>
   <%= @apartment.name %>
 </p>
 
 <p>
-  <strong>Phone:</strong>
+  <strong>Phone:</strong><br>
   <%= @apartment.phone %>
 </p>
 
 <p>
-  <strong>hours_to_contact to contact:</strong>
+  <strong>hours_to_contact to contact:</strong><br>
   <%= @apartment.hours_to_contact %>
 </p>
 
 <p>
-  <strong>Aptstreet1:</strong>
+  <strong>Aptstreet1:</strong><br>
   <%= @apartment.aptstreet1 %>
 </p>
 
 <p>
-  <strong>Aptstreet2:</strong>
+  <strong>Aptstreet2:</strong><br>
   <%= @apartment.aptstreet2 %>
 </p>
 
 <p>
-  <strong>City:</strong>
+  <strong>City:</strong><br>
   <%= @apartment.city %>
 </p>
 
 <p>
-  <strong>State:</strong>
+  <strong>State:</strong><br>
   <%= @apartment.state %>
 </p>
 
 <p>
-  <strong>Postal code:</strong>
+  <strong>Postal code:</strong><br>
   <%= @apartment.postal_code %>
 </p>
 
 <p>
-  <strong>Country:</strong>
+  <strong>Country:</strong><br>
   <%= @apartment.country %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>Description:</strong><br>
   <%= @apartment.description %>
 </p>
 
 <% if can? :manage, :all %>
-<%= link_to 'Edit', edit_apartment_path(@apartment) %>
-<% end %> |
+<h4></h4>
+<%= link_to 'Edit', edit_apartment_path(apartment) %>
+</h4>
+<% end %> 
+<h4>
 <%= link_to 'Back', apartments_path %>
+</h4>
+
+</div>

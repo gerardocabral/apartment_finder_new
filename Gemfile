@@ -36,7 +36,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'paperclip'
+gem 'aws-sdk', '< 2.0'
+gem 'paperclip', "~> 4.3"
 gem 'textacular'
 gem 'devise'
 gem 'omniauth-twitter'
